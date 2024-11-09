@@ -1,0 +1,57 @@
+body{ position: relative;
+    background-image: url(./images/landscape2.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 50%
+    }
+
+.container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
+        position: relative;  
+        height: 700px;
+        width: 100%;
+        border: 1px solid #ccc; 
+      }
+      
+      .container p {
+        margin: 0;
+        padding: 5px;
+      }
+      
+      .top-left {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      
+      .top-right {
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+      .centered {
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        height: 500px;          
+      }
+      
+      .centered {
+        margin: 0;
+      }
+      
+      
+      .bottom-left {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+      
+      .bottom-right {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }     

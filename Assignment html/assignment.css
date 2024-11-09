@@ -1,0 +1,53 @@
+p{
+    color: brown;
+    text-align: center;
+    text-align-last:center ;
+}
+.photo {
+    margin: auto 0;
+    display: block;
+}
+h3{ 
+    text-decoration: solid;
+    padding: 2px;
+    color:black;
+    text-indent: 2cm;
+
+}
+
+body{
+    background-color: aquamarine;
+
+}
+
+h4{
+    text-shadow: 2px 2px red;
+}
+
+a:hover{
+    color:yellow;
+}
+
+div{
+    position: fixed;
+    top: 0;
+    background-color: blueviolet;
+}
+
+ul{
+    align-items: center;
+}
+
+ol{
+    align-items: center;
+}
+
+.icon{
+    height: 1cm;
+    width: 1cm;
+    border-radius: 10%;
+}
+
+span{
+    text-align: center;
+}
